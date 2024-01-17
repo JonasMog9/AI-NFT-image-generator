@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Children's Story Generator</title>
+    <link rel="stylesheet" href="CB.css"> 
+</head>
+<body>
+    <h1>Custom Children's Story Generator</h1>
+    <p>Welcome to the Custom Children's Story Generator, where your NFTs come to life in exciting storybooks! Choose your favorite NFT from the Rumble Kong League collection, enter its Token ID, and watch as we generate a unique series of images that bring your NFT into the world of storytelling. Perfect for creating personalized children's books or just to see your NFT in fun and imaginative scenarios.</p>
+    
+    <div class="selection-area">
+        <label for="collectionSelect">Select a Collection:</label>
+        <select id="collectionSelect">
+            <option value="rumbleKongLeague">Rumble Kong League</option>
+            
+        </select>
+
+        <label for="tokenID">Enter Token ID:</label>
+        <input type="text" id="tokenID" placeholder="1234">
+        <button id="submitToken">Submit</button>
+    </div>
+    
+    <div id="nftImageContainer">
+        
+    </div>
+
+    <!-- Text area to display the generated prompt -->
+    <textarea id="promptText" rows="4" readonly style="width: 100%; margin-top: 20px;"></textarea>
+
+    <button id="startGenerating">Start Generating</button>
+
+    <div id="generatedImages">
+        
+    </div>
+
+    
+    <button id="downloadImages" style="display: none;">Download Images</button>
+
+
+    <script src="CB.js"></script> 
+</body>
+</html>
