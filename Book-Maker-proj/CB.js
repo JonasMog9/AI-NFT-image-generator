@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nftImageContainer = document.getElementById('nftImageContainer');
     const promptText = document.getElementById('promptText'); 
     const generatedImages = document.getElementById('generatedImages');
-    const apiKey = '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';
+    const apiKey = 'MYAPIKEY';
     const downloadButton = document.getElementById('downloadImages');
 
     // Function to parse CSV data and find the attributes by token ID
